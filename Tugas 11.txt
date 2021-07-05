@@ -1,0 +1,8 @@
+	use mysql;
+1.	create user 'Niomic'@'localhost' indentified by 'c0b4d1b4c4';
+
+2.	update User set Password = PASSWORD('indonesiaku') where User = 'Niomic';
+
+3.	grant all in belajar.mahasiswa to Niomic@localhost;
+
+4.	drop User 'Niomic';
